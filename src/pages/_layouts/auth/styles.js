@@ -28,6 +28,13 @@ export const Content = styled.div`
       color: #fff;
       margin: 0 0 10px;
     }
+
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
   }
 
   button {
