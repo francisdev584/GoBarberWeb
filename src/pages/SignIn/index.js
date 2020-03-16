@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Form, Input } from "@rocketseat/unform";
 import * as Yup from "yup";
 
-import { signInRequest } from "~/store/modules/auth/action";
+import { signInRequest } from "~/store/modules/auth/actions";
 import logo from "~/assets/logo.svg";
 
 const schema = Yup.object().shape({
